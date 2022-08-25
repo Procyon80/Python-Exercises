@@ -6,4 +6,4 @@ url = ("https://raw.github.com/pandas-dev/pandas/main/pandas/tests/io/data/csv/t
 
 tips = pd.read_csv(url)
 
-tips
+print(tips)
