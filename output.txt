@@ -1,0 +1,14 @@
+total 104
+drwxr-xr-x 4 alexs alexs  4096 Dec 27 11:06 JupyterNotebooks
+-rw-r--r-- 1 alexs alexs   155 Dec 27 11:06 README.md
+-rw-r--r-- 1 alexs alexs   641 Dec 27 11:06 dice_roll.py
+-rw-r--r-- 1 alexs alexs   369 Dec 27 11:06 hello.py
+-rw-r--r-- 1 alexs alexs   903 Dec 27 11:06 loan.py
+-rw-r--r-- 1 alexs alexs   488 Dec 27 11:06 movies.py
+-rw-r--r-- 1 alexs alexs     0 Dec 27 11:26 output.txt
+-rw-r--r-- 1 alexs alexs   427 Dec 27 11:06 rock_paper_scissors.py
+-rw-r--r-- 1 alexs alexs   117 Dec 27 11:06 space_people.py
+-rw-r--r-- 1 alexs alexs   149 Dec 27 11:06 tax.py
+-rw-r--r-- 1 alexs alexs   188 Dec 27 11:06 test.py
+-rw-r--r-- 1 alexs alexs    40 Dec 27 11:06 tkn.txt
+-rw-r--r-- 1 alexs alexs 61194 Dec 27 11:06 train.csv
