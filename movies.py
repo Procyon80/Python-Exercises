@@ -8,8 +8,8 @@ for key in current_movies:
     print(key)
 movie = input('What movie would you like the showtime for?\n')
 
-showtime = current_movies.get(movie)
-if showtime == None:
-    print("Requested showtime isn't playng")
+requested_showtime = current_movies.get(movie)
+if requested_showtime is None:
+    print("Requested showtime isn't playing")
 else:
-    print(movie, "is playng at", showtime)
+    print(movie, "is playing at", requested_showtime)
