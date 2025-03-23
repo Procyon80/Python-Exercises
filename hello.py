@@ -10,7 +10,7 @@ ys = 200 + np.random.randn(100)
 x = [x for x in range(len(ys))]
 
 plt.plot(x, ys, '-')
-plt.fill_between(x, ys, 195, where=(ys > 195), facecolor='g', alpha=0.6)
+plt.fill_between(x, ys, 195, where=np.array(ys > 195), facecolor='g', alpha=0.6) # type: ignore
 
 plt.title("Sample Visualization")
 plt.show()
