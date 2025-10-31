@@ -11,3 +11,4 @@ drwxr-xr-x 4 alexs alexs  4096 Dec 27 11:06 JupyterNotebooks
 -rw-r--r-- 1 alexs alexs   188 Dec 27 11:06 test.py
 -rw-r--r-- 1 alexs alexs    40 Dec 27 11:06 tkn.txt
 -rw-r--r-- 1 alexs alexs 61194 Dec 27 11:06 train.csv
+test
