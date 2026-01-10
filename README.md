@@ -10,6 +10,7 @@ A collection of basic Python scripts for learning and practice.
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
+- [Scripts](#scripts)
 
 ## Introduction
 
@@ -23,3 +24,14 @@ To get started, clone the repository to your local machine:
 git clone https://github.com/yourusername/Python-Exercises.git
 ```
 THE END.
+
+## Scripts
+
+### Guess the Number
+
+A simple interactive game where the user tries to guess a randomly generated number.
+
+To run this script:
+```bash
+python guess_the_number.py
+```
