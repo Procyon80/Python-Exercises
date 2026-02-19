@@ -9,3 +9,5 @@ while i < 10:
     print(f"{i} SEATS AVAILABLE.")
     i = i + 1
 print("NO SEATS AVAILABLE.")
+
+
