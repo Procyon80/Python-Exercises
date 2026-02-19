@@ -1,8 +1,38 @@
-user_answers = ["Yes", "", "No", "", "Maybe", "", "Yes"]
+# Parent class
+class Animal:
+  def __init__(self, name):
+    self.name = name
 
-# Create a new list without empty answers
-# using filter with a lambda expression
-empty_answ = list(filter(lambda x: x != "", user_answers))
+  # Generic sound method for any animal
+  def sound(self):
+    print("Making a sound")
 
-# Display the cleaned list of answers
-print(empty_answ)
+# Child class Dog
+class Dog(Animal):
+  def __init__(self, name, breed, age):
+    super().__init__(name)
+    self.breed = breed
+    self.age = age
+  
+  # Overridden sound method for Dog
+  def sound(self):
+    print("Woof!")
+
+# Child class Cat
+class Cat(Animal):
+  def __init__(self, name, breed, age):
+    super().__init__(name)
+    self.breed = breed
+    self.age = age
+
+  # Overridden sound method for Cat
+  def sound(self):
+    print("Meow!")
+
+# Creating instances
+my_dog = Dog("Jax", "Bulldog", 5)
+my_cat = Cat("Lily", "Ragdoll", 2)
+
+# Using overridden methods
+my_dog.sound()
+my_cat.sound()
